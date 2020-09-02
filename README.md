@@ -7,6 +7,8 @@ python manage.py runserver
 
 ### Main endpoints
 
+POST `/auth/users/` - create user. The request must contain a body with a username and password
+
 POST `/auth/jwt/create/` - obtain jwt token
 
 GET `/activity/` - information about the activity of the current user
